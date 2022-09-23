@@ -18,7 +18,7 @@ body{
 }
 .section_1{
     width: 100%;
-    background-image: url('/img/background_section_1.png');
+    background-image: url("/img/background_section_1.png");
     background-size: cover;
 }
 .header_wrapper{
@@ -354,7 +354,7 @@ body{
     margin-bottom: 50px;
 }
 .section_7{
-    background-image: url("/img/bg_section_7.png");
+    background-image: url("/img/section_7_bg.SVG");
     background-size: cover;
 }
 .Ipoteka li{

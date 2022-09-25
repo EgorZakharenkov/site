@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bg_menu.css">
     <link rel="stylesheet" href="css/adaptiv.css">
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Montserrat:wght@100&family=Mouse+Memoirs&family=Roboto:wght@500&family=Square+Peg&display=swap" rel="stylesheet">
     <title>Результат строй</title>
@@ -22,6 +23,25 @@
                         <a href="#" class="nav_link">Инфраструктура</a>
                         <a href="#" class="nav_link">О нас</a>
                         <a href="#" class="nav_link">Контакты</a>
+                    </div>
+                    <div class="Menu_phone">
+                        <div id="menu">
+                            <div id="menu-bar" onclick="menuOnClick()">
+                                <div id="bar1" class="bar"></div>
+                                <div id="bar2" class="bar"></div>
+                                <div id="bar3" class="bar"></div>
+                            </div>
+                            <nav class="nav" id="nav">
+                                <ul>
+                                    <li><a href="#">Дом</a></li>
+                                    <li><a href="#">Главная</a></li>
+                                    <li><a href="#">Инфраструктура</a></li>
+                                    <li><a href="#">О нас</a></li>
+                                    <li><a href="#">Контакты</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="menu-bg" id="menu-bg"></div>
                     </div>
                     <div class="phone_info">
                         <div class="header_phone_number">
@@ -334,5 +354,6 @@
         </section>
 <script src = "js/menu_burger.js"></script>
 <script src = "js/Slider.js"></script>
+        <script src = "js/bg_menu.js"></script>
 </body>
 </html>

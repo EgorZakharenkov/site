@@ -18,7 +18,7 @@ body{
 }
 .section_1{
     width: 100%;
-    background-image: url("/img/background_section_1.png");
+    background-image: url("../img/background_section_1.png");
     background-size: cover;
 }
 .header_wrapper{
@@ -156,7 +156,7 @@ body{
 .section_3{
     width: 100%;
     height: 768px;
-    background-image: url('/img/section_3_bacground.png');
+    background-image: url('../img/section_3_bacground.png');
     background-size: cover;
 }
 .section_3_wrapper{
@@ -354,7 +354,7 @@ body{
     margin-bottom: 50px;
 }
 .section_7{
-    background-image: url("/img/section_7_bg.SVG");
+    background-image: url("../img/section_7_bg.svg");
     background-size: cover;
 }
 .Ipoteka li{

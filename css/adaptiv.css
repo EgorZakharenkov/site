@@ -277,6 +277,18 @@
     }
 }
 @media screen and (max-width: 450px){
+    .header_logo img {
+        width: 300px;
+    }
+    .header_phone_number h3 {
+        font-size: 22px;
+    }
+    .header_mail {
+        font-size: 20px;
+    }
+    .header_wrapper{
+align-items: center
+    }
     .section_3_content{
         justify-content: center;
         align-items: center;

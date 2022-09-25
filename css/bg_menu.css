@@ -3,8 +3,8 @@
 }
 .Menu_phone{
     position: fixed;
-
     display: none;
+    left: 0px;
 }
 #menu-bar {
     width: 45px;
